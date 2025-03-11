@@ -1,3 +1,3 @@
 ---
 kubeconfig: "/root/.kube/config"
-cli_image: "registry-proxy.engineering.redhat.com/rh-osbs/service-interconnect-skupper-router-rhel9:3.2.0-1"
+cli_image: "registry-proxy.engineering.redhat.com/rh-osbs/service-interconnect-cli-rhel9:2.0.0-1"
