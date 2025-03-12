@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: quay.io/skupper/hello-world-frontend
+          image: quay.io/rhn-support-rjauhari/hello-world-frontend
           ports:
             - containerPort: 8080
 ---

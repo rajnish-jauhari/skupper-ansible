@@ -9,7 +9,7 @@
       tags: always
       containers.podman.podman_container:
         name: token_testing_backend
-        image: quay.io/skupper/hello-world-backend
+        image: quay.io/rhn-support-rjauhari/hello-world-backend
         state: started
         ports:
           - 19090:8080
