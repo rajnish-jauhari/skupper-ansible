@@ -1,4 +1,4 @@
 ---
 namespace: system-testing # noqa: var-naming
 site_name: my-site
-system_image: "{{ cli_image | default('registry-proxy.engineering.redhat.com/rh-osbs/service-interconnect-cli-rhel9:2.0.0-2') }}"
+system_image: registry-proxy.engineering.redhat.com/rh-osbs/service-interconnect-cli-rhel9:2.0.0-2
